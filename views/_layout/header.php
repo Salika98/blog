@@ -15,8 +15,8 @@
     <a href="<?=APP_ROOT?>/users/about">About</a>
     <?php if ($this->isLoggedIn) : ?>
         <?php if ($_SESSION['username'] == 'zori') : ?>
-        <a href="<?=APP_ROOT?>/posts/create">Create Post</a>
         <a href="<?=APP_ROOT?>/posts">Posts</a>
+        <a href="<?=APP_ROOT?>/posts/create">Create Post</a>
         <a href="<?=APP_ROOT?>/users">Users</a>
         <?php endif; ?>
 

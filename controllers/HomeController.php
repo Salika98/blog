@@ -3,9 +3,13 @@
 class HomeController extends BaseController
 {
     function index() {
-    	$this->posts = $this->model->getAll();
+    	if($this->isLoggedIn)
+    	$posts = $this->model->getAll();
+    	else
     	$posts = $this->model->getLatestPosts(5);
+    
         $this->postsSidebar = $posts;
+        $this->posts = $posts;
     }
 	
 	function view(int $id) {
