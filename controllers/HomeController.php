@@ -7,9 +7,9 @@ class HomeController extends BaseController
     	$posts = $this->model->getAll();
     	else
     	$posts = $this->model->getLatestPosts(5);
-    
-        $this->postsSidebar = $posts;
         $this->posts = $posts;
+        
+        $this->postsSidebar = $this->model->getLatestPosts(5);  
     }
 	
 	function view(int $id) {
