@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8">   
     <link rel="stylesheet" href="<?=APP_ROOT?>/content/style_social.css" />  
+    <link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
   </head>
 
   <body>
