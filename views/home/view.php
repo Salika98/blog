@@ -1,5 +1,5 @@
 <?php $this->title = $this->post['title'];?>
-
+<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 <main>
 	<h1><?=htmlentities($this->post['title'])?></h1>
 		<p>
