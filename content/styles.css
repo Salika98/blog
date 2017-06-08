@@ -130,7 +130,7 @@ body>aside h2 {
 
 body {
     font: 14px/24px Helvetica, Sans-Serif; color: #7e7e7e;
-  background: url(images/product_8266432_o_2.jpg) blue;
+  background-image: url("images/product_8266432_o_2.jpg");
 
 }
 
