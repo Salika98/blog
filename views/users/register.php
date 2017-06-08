@@ -1,5 +1,5 @@
 <?php $this->title = 'Register'; ?>
-
+<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 <form id="specialform" method="post">
 	<h1><?= htmlspecialchars($this->title) ?></h1>
 	<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Username: <input type="text" name="username"></div>
