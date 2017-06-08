@@ -1,5 +1,5 @@
 <?php $this->title = 'Edit existing post'; ?>
-
+<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 <h1><?=htmlspecialchars($this->title)?></h1>
 
 <form method="post">
