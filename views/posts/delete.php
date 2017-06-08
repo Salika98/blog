@@ -1,5 +1,5 @@
 <?php $this->title = 'Delete post'; ?>
-
+<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 <h1>Are you sure you want to delete this post?</h1>
 
 <form method="post">
