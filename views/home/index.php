@@ -1,6 +1,7 @@
 <?php $this->title = 'home'; ?>
 
 <header id="logo">
+	<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 	<div>
 		<a href="<?=APP_ROOT?>/users/about"><img src="<?=APP_ROOT?>/content/images/girl.gif" height=200px; ></a>
 		<h1 id="retro">Just another white girl's blog</h1>
