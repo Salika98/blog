@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="<?=APP_ROOT?>/content/styles.css">
 <main id="specialmain">
 	<table align="center">
 		<tr>
